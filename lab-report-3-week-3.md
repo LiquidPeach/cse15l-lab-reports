@@ -76,12 +76,13 @@ Let's search for the substring "oo" just for demonstration using the path `/sear
 <br />
 
 ![Image](screenshots/lab3/search1.png)
+<br />
+
 And there we go. The program successfully found the words in the list that contained "oo".
 
 ## **PART 2** - Buggy Tests
 ---
 Here are two bugs I found in the provided files for this lab.
-</b>
 
 ### **Bug 1** - reverseInPlace
 
@@ -104,8 +105,6 @@ One was to remedy this is to use a brute force solution that stores every elemen
 <br />
 
 The symptom was due to the fact that the array was not reversed, as the error shown in the above screenshot states. If the input array was no larger than 1 the test would have passed, but since the array I used was bigger than that, it was not able to accidentally produce the correct result. 
-
-<br />
 
 ### **Bug 2** - reversed
 `reversed` is supposed to return a new array containing the elements of a given array in reversed order.  This is the error I recieved after testing the method with array `{ 3, 4, 5 }` 
