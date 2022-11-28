@@ -9,11 +9,11 @@ The shortest line of commands I found is this: `:[range]s/[old]/[new]`. `s` will
 
 In Normal Mode, enter `:13,23s/start/base`
 
-![Image](screenshots/lab5/before.png)
+![Image](screenshots/lab4/before.png)
 
 After hitting `<Enter>` every instance of `start` from line 13 to 23 should be replaced with `base`.
 
-![Image](screenshots/lab5/after.png)
+![Image](screenshots/lab4/after.png)
 
 ## **PART 2**
 ---
