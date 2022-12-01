@@ -5,9 +5,7 @@
 
 For part 1 this lab, I was instructed to give the shortest set of `vim` commands to perform a certain task. The task I will complete is changing the name of the `start` parameter to `base` in the `DocSearchServer.java` file from a previous lab. 
 
-The shortest line of commands I found is this: `:[range]s/[old]/[new]`. `s` will substitute one word with another, and `[range]` will command it to search the file from a given range for every instance of the word to be replaced. Here is how this command sequence can be used for the lab:
-
-In Normal Mode, enter `:13,23s/start/base`
+The shortest line of commands I found is this: `:13,23s/start/base`. This will tell the program to search the file for every instance of a word to be replaced within a given range. `13,23` is the range of the search. The `s` tells it to substitute one word with another. `start` is the word to be searched for, and `base` will replace each found instance of `start` in the given range. Here is how it looks to enter this command sequence in Normal mode:
 
 ![Image](screenshots/lab4/before.png)
 
